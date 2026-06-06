@@ -582,7 +582,7 @@ class YouTubeUploader:
             )
             caption_section = f"\n\n{caption_lines}" if caption_lines else ""
             description = (
-                f"{config.DESCRIPTION}{caption_section}\n\n{hashtags}\n#Shorts\n\ncryptohieu.com"
+                f"{config.DESCRIPTION}{caption_section}\n\n{hashtags}\n#Shorts\n\nxeonbit24.com"
             )
 
             publish_at = (
