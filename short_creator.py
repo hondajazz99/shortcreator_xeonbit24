@@ -218,7 +218,7 @@ class VideoCreator:
             tts_path = Path("temp_tts.mp3")
             word_timings = []
             clean_text = strip_emojis(text)
-            subscribe_cta = "Like and subscribe our Xeonbit channel. Thanks and Love you all!!"
+            subscribe_cta = "Next news will be very interested, Like and subscribe our Xeonbit channel. Thanks and Love you all!!"
             text_with_cta = f"{clean_text}. {subscribe_cta}"
 
             communicate = edge_tts.Communicate(text_with_cta, voice="en-SG-LunaNeural")
